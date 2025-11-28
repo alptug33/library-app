@@ -57,7 +57,7 @@ public class SecurityConfiguration {
 
     @Bean
     public JwtDecoder jwtDecoder() {
-        String issuerUri = "https://dev-nvmc4xkebeuhwhr3.us.auth0.com/";
+        String issuerUri = "key";
         return JwtDecoders.fromIssuerLocation(issuerUri);
     }
 }
